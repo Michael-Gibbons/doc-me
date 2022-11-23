@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import inquirer from 'inquirer'
 import open from 'open'
 import { Command } from 'commander'

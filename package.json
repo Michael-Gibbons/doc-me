@@ -1,0 +1,27 @@
+{
+  "name": "doc-me",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to open documentation links defined in a json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Gibbons/doc-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Gibbons/doc-me/issues"
+  },
+  "homepage": "https://github.com/Michael-Gibbons/doc-me#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "inquirer": "^9.1.4",
+    "open": "^8.4.0",
+    "read-package-json": "^6.0.0"
+  }
+}
